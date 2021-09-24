@@ -8,3 +8,7 @@ h1{color:grey;font-family:verdana}
     border-radius:25px;
     align:center;
 }
+button{
+    font-family:Verdana;
+    width:150px;
+}
