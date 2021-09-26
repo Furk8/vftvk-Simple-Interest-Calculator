@@ -6,7 +6,6 @@ function compute()
     var interest = principal * years * rate /100;
     var year= new Date().getFullYear()+parseInt(years);
     
-}
 
 function updateRate(){
     var rateval = document.getElementById("rate").value;
@@ -14,8 +13,11 @@ function updateRate(){
     
 }
 
-
-
-
-
+function Re_sult(){
+    var result = document.getElementById("compute").innerText=
+    If you deposit getElementById("principal,");
+    at an interest rate of getElementById("rate,");
+    You will receive an amount of interest * years * rate ;
+    In the year year;
+}
 
