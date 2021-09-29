@@ -4,7 +4,14 @@ function compute()
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
     var interest = principal * years * rate /100;
-    var year= new Date().getFullYear()+parseInt(years);
+  	var amount = principal + interest ;
+  	var year = new Date().getFullYear()+parseInt(years);
+    var result = document.getElementById("result").innerHTML="If you deposit "+principal+ ",\<br><br> at an interest rate of " +rate+ ",\<br><br> You will receive an amount of "+amount+ ",\<br><br> in the year " +year+ "."
+    
+    
+  
+    
+}
     
 
 function updateRate(){
@@ -13,11 +20,5 @@ function updateRate(){
     
 }
 
-function Re_sult(){
-    var result = document.getElementById("compute").innerText=
-    If you deposit getElementById("principal,");
-    at an interest rate of getElementById("rate,");
-    You will receive an amount of interest * years * rate ;
-    In the year year;
-}
+
 
